@@ -1,7 +1,37 @@
 @charset "utf-8";
 /*======================================
 
- 
+ [ -Main Stylesheet-
+  Theme: Outdoor
+  Version: 1.0
+  Last change: 28/09/2015 ]
+  	+++Fonts +++
+	++++General Styles++++
+	++++Typography ++++
+	++++Page preload ++++
+	++++Content Styles ++++
+	++++Section  ++++
+	++++Fixed title ++++
+	++++Separator ++++
+	++++Links  ++++
+	++++Video+++++
+	++++Home  +++++
+	++++Item hover  ++++
+	++++Header  ++++
+	++++Navigation ++++
+	++++About ++++
+	++++Services++++
+	++++Facts  ++++
+	++++Team++++
+	++++Testimonials ++++
+	++++Footer ++++
+	++++Portfolio++++
+	++++Share ++++
+	++++Contacts++++
+	++++Blog ++++
+	++++Css-animation ++++
+	++++Responsive++++
+*/
 /*-------------Import fonts ---------------------------------------*/
 @font-face {
 	font-family:'FuturaPT-Book';
