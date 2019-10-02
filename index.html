@@ -17,6 +17,22 @@
         <link rel="shortcut icon" href="images/logo.png">
     </head>
     <body>
+            <!--Notice Modal-->
+            <div id="mymodal" class="modal">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Notice</h2>
+                      </div>
+                      <div class="modal-body">
+                        <p>Currently There is No Notice</p>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <h3>Shutterbug-KGEC</h3>
+                      </div>
+                    </div>
+            </div>   
         <!--Loader  -->
         <div class="loader"><i class="fa fa-refresh fa-spin"></i></div>
         <!--LOader end  -->
@@ -40,14 +56,18 @@
                         <nav>
                             <ul>
                                 <li><a href="index.html" class="act-link">Home</a></li>
+                        
                                 <li><a href="portfolio.html">Works</a></li>
                                 <li><a href="about.html">About Us </a></li>
-                                <li><a href="#">Our Equipments</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="joinus.html">Join</a></li>
+                                <li><a href="http://sbkgec.dx.am/joinus/">Join</a></li>
+                                <li><a href="http://sbkgec.dx.am/">Login</a></li>
+                                
+                                <li><a href="#" id="modal-btn"><b>Notice</b></a></li>
                             </ul>
                         </nav>
                     </div>
+                    
                     <!--navigation end -->
                 </div>
                 <!--Header inner end  -->	
@@ -146,6 +166,7 @@
         </div>
         <!-- Main end -->
         <!--=============== scripts  ===============-->
+        <script type="text/javascript" src="js/modal.js"></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>

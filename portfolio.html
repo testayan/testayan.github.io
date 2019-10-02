@@ -17,6 +17,22 @@
         <link rel="shortcut icon" href="images/logo.png">
     </head>
     <body>
+        <!--Notice Modal-->
+        <div id="mymodal" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Notice</h2>
+                  </div>
+                  <div class="modal-body">
+                    <p>Currently There is No Notice</p>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <h3>Shutterbug-KGEC</h3>
+                  </div>
+                </div>
+        </div>   
         <!--Loader  -->
         <div class="loader"><i class="fa fa-refresh fa-spin"></i></div>
         <!--LOader end  -->
@@ -39,12 +55,13 @@
                     <div class="nav-holder">
                         <nav>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="portfolio.html" class="act-link">Works</a></li>
-                                <li><a href="about.html">About Us </a></li>
-                                <li><a href="#">Our Equipments</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="joinus.html">Join</a></li>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="portfolio.html" class="act-link">Works</a></li>
+                                    <li><a href="about.html">About Us </a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="http://sbkgec.dx.am/joinus/">Join</a></li>
+                                    <li><a href="http://sbkgec.dx.am/">Login</a></li>
+                                    <li><a href="#" id="modal-btn"><b>Notice</b></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -76,6 +93,22 @@
                     </div>
                     <div class="content">
                         <div class="gallery-items   hid-port-info grid-small-pad">
+                            <!-- 1 -->
+                            <div class="gallery-item  project">
+                                    <div class="grid-item-holder">
+                                        <div class="box-item">
+                                            <a href="https://www.facebook.com/shutterbugkgec/videos/1805746729570966/" >
+                                            <span class="overlay"></span> 
+                                            <img  src="images/portfolio/thumbs/km19.png"   alt="">
+                                            </a>
+                                        </div>
+                                        <div class="grid-item ">
+                                            <h3><a href="https://www.facebook.com/shutterbugkgec/videos/1805746729570966/" class="ajax portfolio-link">Kumortuli</a></h3>
+                                            <span>A Durgapuja Cinematics</span>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
                             <!-- 1 -->
                             <div class="gallery-item  program">
                                 <div class="grid-item-holder">
@@ -109,23 +142,7 @@
                                 </div>
                             </div>
                             <!-- 2 end-->
-                            <!-- 3 -->
-                            <div class="gallery-item   program">
-                                <div class="grid-item-holder">
-                                    <div class="box-item">
-                                        <a href="#" >
-                                        <span class="overlay"></span> 
-                                        <img  src="images/portfolio/thumbs/pl.jpg"   alt="">
-                                        </a>
-                                    </div>
-                                    <div class="grid-item">
-                                        <h3><a href="#" >Plexus 2k19</a></h3>
-                                        <span>Fresher for 2018-2022 Batch</span>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- 3 end-->
+                            
                             <!-- 4 -->
                             <div class="gallery-item gallery-item-second  program">
                                 <div class="grid-item-holder">
@@ -143,6 +160,23 @@
                                 </div>
                             </div>
                             <!-- 4 end-->
+                            <!-- 3 -->
+                            <div class="gallery-item   program">
+                                    <div class="grid-item-holder">
+                                        <div class="box-item">
+                                            <a href="#" >
+                                            <span class="overlay"></span> 
+                                            <img  src="images/portfolio/thumbs/pl.jpg"   alt="">
+                                            </a>
+                                        </div>
+                                        <div class="grid-item">
+                                            <h3><a href="#" >Plexus 2k19</a></h3>
+                                            <span>Fresher for 2018-2022 Batch</span>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 end-->
                             <!-- 5 -->
                             <div class="gallery-item  program">
                                 <div class="grid-item-holder">
@@ -333,6 +367,7 @@
         <!-- Main end -->
         <!--=============== scripts  ===============-->
         <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/modal.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
     </body>
